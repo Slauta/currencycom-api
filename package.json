@@ -1,0 +1,33 @@
+{
+  "name": "currencycom-api",
+  "description": "Currency.com (Cripto Exchange) API client",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Slauta/currencycom-api",
+  "author": {
+    "name": "Slauta Roman",
+    "email": "slro@yandex.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Slauta/currencycom-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Slauta/currencycom-api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Slauta/currencycom-api/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/index",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "querystring": "^0.2.0"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "keywords": []
+}
